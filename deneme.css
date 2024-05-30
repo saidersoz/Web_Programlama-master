@@ -1,0 +1,65 @@
+body {
+    font-family: Snell Roundhand, cursive;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+h1 {
+    color: rgb(126, 104, 76);
+    text-align: center;
+    font-size: 50px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 40%; /* Her ürünün genişliği */
+}
+
+.product img {
+    max-width: 100%; /* Resimleri genişliğe sığdır */
+    height: auto; /* Oranları koru */
+    margin-bottom: 10px;
+}
+
+h2, p {
+    font-size: 15px; /* Başlık ve açıklama metni boyutunu ayarla */
+}
+
+.add-to-cart {
+    background-color: #974400;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+

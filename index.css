@@ -1,0 +1,11 @@
+h2 {
+    color: rgb(31, 104, 201);
+    font-size: 30px;
+    text-align: justify;
+}
+
+p {
+    color: rgb(0, 255, 170);
+    font-size: 20px;
+    text-align: center;
+}

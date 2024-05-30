@@ -1,0 +1,44 @@
+/*Pseudo Selectors*/
+
+p::first-line{ /*Paragrafların ilk satırı*/
+    font-weight: bold;
+    color: darkred;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+p::first-letter{ /*Paragraflarda ki ilk harfleri*/
+    font-size: 50px;
+}
+
+
+/*Psuedo Class*/
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child{
+    background-color: darkseagreen;
+}
+
+ul li:last-child{
+    background-color: darkslateblue;
+}
+
+a:visited{
+    color: fuchsia;
+}
+
+a:hover{
+    color: white;
+    background-color: lightsteelblue;
+}
+
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
